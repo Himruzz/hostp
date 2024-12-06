@@ -1,0 +1,27 @@
+
+
+.content {
+  flex: 1;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer div {
+  flex: 1 1 200px;
+  padding: 10px;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+footer a:hover {
+  text-decoration: underline;
+}
