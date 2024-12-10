@@ -1,0 +1,65 @@
+/* General Reset */
+body, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333; /* Dark gray */
+    color: #FFD700; /* Gold color for luxury theme */
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFD700;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links ul li {
+    margin: 0 15px;
+  }
+  
+  .nav-links ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links ul li a:hover {
+    color: #FFD700;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links ul {
+      flex-direction: column;
+      display: none;
+    }
+  
+    .nav-links ul.active {
+      display: flex;
+    }
+  }
+  

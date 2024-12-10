@@ -1,0 +1,12 @@
+.hero{
+    /* justify-content: center; */
+    justify-items: center;
+
+}
+/* Card Styling */
+
+  
+  .btn:hover {
+    background-color: #20ab27; /* Slightly lighter gold */
+  }
+  

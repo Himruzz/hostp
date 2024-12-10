@@ -1,38 +1,29 @@
 import React from 'react'
-import './footer.css'
-const Footer = () => {
+import"./footer.css"
+
+function Footer() {
   return (
-    <>
-
-
-
-
-
-
-    
-
-  
-    <footer>
-      <div>
-        <h4>About Us</h4>
-        <p>Providing quality services since 2000.</p>
-      </div>
-      <div>
-        <h4>Quick Links</h4>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-        <a href="#">Blog</a>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <p>Email: info@example.com</p>
-        <p>Phone: +1 234 567 890</p>
+    <footer className="footer">
+      <div className="container">
+        <div className="logo">
+          <a href="#">LUXUR</a>
+        </div>
+        <div className="footer-links">
+          <ul>
+            <li><a href="/about-us">About Us</a></li>
+            <li><a href="/contact-us">Contact Us</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div className="social-media">
+          <a href="#" className="social-icon">FB</a>
+          <a href="#" className="social-icon">IG</a>
+          <a href="#" className="social-icon">TW</a>
+        </div>
+        <p className="copyright">© 2024 LUXUR. All rights reserved.</p>
       </div>
     </footer>
-  
-  
-    </>
   )
 }
 
