@@ -1,0 +1,55 @@
+.menuContainer {
+    position: relative;
+  }
+  
+  .menuButton {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #cd3131;
+  }
+  
+  .menuDrawer {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 200px;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .menuDrawer.open {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .menuList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menuList li {
+    padding: 0.5rem 0;
+    cursor: pointer;
+  }
+  
+  .menuList li:hover {
+    color: #007bff;
+  }
+  @media (min-width: 768px) {
+  .menuButton {
+    display: none; /* Hide menu button on larger screens */
+  }
+
+  .menuDrawer {
+    display: none; /* No drawer on larger screens */
+  }
+}

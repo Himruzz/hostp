@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import "./style.css"
+import Image from "next/image";
+
 function Hello() {
   return (
     <>
@@ -10,7 +12,9 @@ function Hello() {
       <div>
         <header className="about-header">
           <h1>About Our E-Commerce Store</h1>
-          <p>Passion. Quality. Customer Satisfaction.</p>
+          <p>Passion. Quality. Customer Satisfaction.
+            dummy website
+          </p>
         </header>
 
         <main>
@@ -37,22 +41,13 @@ function Hello() {
           </section>
 
           <section>
-            <h2 style={{ textAlign: 'center', marginTop: '40px' }}>Meet Our Team</h2>
+            <h2 style={{ textAlign: 'center', marginTop: '40px' }}>Meet Me</h2>
             <div className="team-section">
+            
               <div className="team-member">
-                <img src="/placeholder-ceo.jpg" alt="CEO" />
-                <h3>Jane Doe</h3>
-                <p>Founder & CEO</p>
-              </div>
-              <div className="team-member">
-                <img src="/placeholder-cto.jpg" alt="CTO" />
-                <h3>John Smith</h3>
-                <p>Chief Technology Officer</p>
-              </div>
-              <div className="team-member">
-                <img src="/placeholder-coo.jpg" alt="COO" />
-                <h3>Emily Wong</h3>
-                <p>Chief Operations Officer</p>
+                <img src="/image.png" alt="COO" />
+                <h3>himran</h3>
+                <p>Created by the ecomwebsite</p>
               </div>
             </div>
           </section>
